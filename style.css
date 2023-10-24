@@ -1,0 +1,119 @@
+#{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(.images/girl-travel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: #8ed7e0;
+    column-rule: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+    transition:   .5s;
+}
+.Logo span{
+    width: 100px;
+    color: red;
+    font-size: 30px;
+    margin-left: 100px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px 13px;
+    font-size: 25px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition:  .4s;
+
+    
+}   
+nav ul li a:hover{
+    color:  #13b320;
+    background-color:  rgb(115, 240, 240);
+}
+.logo span:hover{
+    background-color: aqua;
+    color: #13b320;
+}
+.text{
+
+    display: inline;
+
+}
+#head{
+    margin-top: 13%;
+    margin-left: 200px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.txt h1{
+    color:  #fbff04;
+    font-size: 80px;
+    font-weight: 900;
+    margin-left: 200px;
+}
+.text p{
+    font-size: 25px;
+    margin-left: 205px;
+    width: 40%;
+    color: #1215c5;
+    font-weight: 500;
+}
+.text button{
+    margin-left: 200px;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 15px;
+    color:#fff;
+    background: #0e56db;
+    border-radius: 14px;
+    transition:  .5s;
+    border: 3px solid aqua;
+}
+.text button:hover{
+    background: #13b320;
+}
+.image{
+    width: 350px;
+    height: 400px;
+    /* margin-top: -20px; */
+    padding-top:0%;
+    position: relative;
+    display: flex;
+    border-radius: 144px;
+    float: right;
+    bottom: 160px;
+    right: 160px;
+}
+.para{
+    float: bottom;
+    left: 500px;
+}
+
+
+ 
